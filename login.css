@@ -1,0 +1,739 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap');
+
+.applec{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+}
+
+.insidec, .linec, .line2c{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registerc, .havec{
+    margin-top: 10px;
+    font-size: 17px;
+    color: 	#000000;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    cursor: pointer;
+    font-family: 'Montserrat Alternates', sans-serif;
+    box-shadow: inset -20p -10px -10px 0px  #000;
+    font-weight: bold;
+}
+
+.registerc{
+    Width: 210px;
+    Height: 49px;
+    margin-right: -2px;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0 5px 10px #a453dd;
+    
+
+}
+
+.havec{
+    Width: 210px;
+    Height: 49px;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 5px 10px #a453dd;
+}
+
+.emailc{
+    position:absolute;
+    left: 15px;
+    right: 15px;
+    top: 10px;
+    bottom: 10px;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+    color: #777777;
+} 
+
+::placeholder{
+    color: rgba(220,220,220);
+    font-size: 16px;
+} 
+
+.inputc{
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.65);
+    box-sizing: border-box;
+    border: 1px solid rgba(119, 119, 119, 0.3);
+    Width: 418px;
+    Height: 49px;
+    padding-left: 50px;
+    font-size: 14px;
+}
+.inputc:hover{
+    border: 1px solid #4AD395;
+}
+
+.linec{
+    position: relative;
+    Width: 418px;
+    Height: 49px;
+}
+
+.passwordc{
+    Width: 418px;
+    Height: 49px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.65);
+    border: 1px solid rgba(119, 119, 119, 0.3);
+    box-sizing: border-box;
+    padding-left: 50px;
+    font-size: 14px;
+}
+
+.passwordc:hover{
+    border: 1px solid #4AD395;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 1px solid #4AD395;
+}
+
+.line2c{
+    position: relative;
+    Width: 418px;
+    Height: 49px;
+}
+
+#padlock{
+    position:absolute;
+    top: 20px;
+    left: 15px;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+    color: #777777;
+}
+
+#visibility{
+    position:absolute;
+    top: 20px;
+    right: 12px;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+    color: #777777;
+    cursor: pointer;
+}
+
+#visibility:hover{
+    color: #4AD395;
+}
+
+.aa{
+    margin-right: -300px;
+    color: #4AD395;
+    text-decoration: none;
+}
+
+a{
+    color: #4AD395;
+    text-decoration: none;
+}
+
+.log-inc{
+    Width: 190px;
+    Height: 49px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.4s ease;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 70px;
+    padding-top: 15px;
+}
+.log-inc:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background: #4B0082;
+    border: 1px solid #4B0082;
+    transform: translateY(-7px);
+    color: #FFFFFF;
+}
+
+.loading{
+    Width: 271px;
+    Height: 49px;
+    background: #4B0082;
+    border: 1px solid #4B0082;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.registerc:focus{
+    background: #4B0082;
+    color: white;
+    font-weight: bold;
+    border: #4B0082;
+}
+
+.havec:focus{
+    background: #4B0082;
+    color: white;
+    font-weight: bold;
+    border: #4B0082;
+}
+
+.h2c{
+    font-size: 11px;
+    color: #777777;
+
+}
+
+/* Parte do cadastro */
+
+.structurec, .linec, .line2c{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register2c, .alreadyc{
+    margin-top: 50px;
+    font-size: 17px;
+    color: rgba(119, 119, 119, 1);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(229, 229, 229, 0.65);
+    cursor: pointer;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.register2c{
+    Width: 199px;
+    Height: 49px;
+    margin-right: 20px;
+    background: #4B0082;
+    color: white;
+    font-weight: bold;
+}
+
+.alreadyc{
+    Width: 199px;
+    Height: 49px;
+}
+
+.namec, .cellphonec, .emailc{
+    position:absolute;
+    left: 15px;
+    right: 15px;
+    top: 10px;
+    bottom: 10px;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+    color: #4B0082;
+} 
+
+::placeholder{
+    color: rgba(220,220,220);
+    font-size: 16px;
+} 
+
+.inputc{
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.65);
+    box-sizing: border-box;
+    border: 1px solid rgba(119, 119, 119, 0.3);
+    Width: 418px;
+    Height: 49px;
+    padding-left: 50px;
+    font-size: 14px;
+}
+.inputc:hover{
+    border: 1px solid #4B0082;
+}
+
+.linec{
+    position: relative;
+    Width: 418px;
+    Height: 49px;
+}
+
+.linec input {
+    width: 100%;
+}
+
+.passwordc{
+    Width: 418px;
+    Height: 49px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.65);
+    border: 1px solid rgba(119, 119, 119, 0.3);
+    box-sizing: border-box;
+    padding-left: 50px;
+    font-size: 14px;
+}
+
+.passwordc:hover{
+    border: 1px solid #4B0082;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 1px solid #4B0082;
+}
+
+.line2c{
+    position: relative;
+    Width: 418px;
+    Height: 49px;
+}
+
+.line2c input {
+    width: 100%;
+}
+
+#padlock{
+    position:absolute;
+    top: 20px;
+    left: 15px;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+    color: #4B0082;
+}
+
+#visibility, #visibilityy, #visibility2{
+    position:absolute;
+    top: 20px;
+    right: 12px;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+    color: #4B0082;
+    cursor: pointer;
+}
+
+#visibility:hover, #visibility2:hover{
+    color: #b900b9;
+}
+
+#visibilityy:hover{
+    color: #b900b9;
+}
+
+.aa1{
+    margin-right: -300px;
+    color: #4B0082;
+    text-decoration: none;
+}
+
+a{
+    color: #4B0082;
+    text-decoration: none;
+}
+
+.donec{
+    Width: 190px;
+    Height: 49px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.4s ease;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+.donec:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background: #4B0082;
+    border: 1px solid #4B0082;
+    transform: translateY(-7px);
+    color: #FFFFFF;
+}
+
+.loadingc{
+    Width: 271px;
+    Height: 49px;
+    background: #4B0082;
+    border: 1px solid #4B0082;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 120px;
+    display: flex;
+    
+}
+
+/*.register2c:focus{
+    background: #4AD395;
+    color: white;
+    font-weight: bold;
+}*/
+
+.alreadyc:focus{
+    background: #4B0082;
+    color: white;
+    font-weight: bold;
+}
+
+.pc{
+    font-size: 11px;
+    color: #777777;
+
+}
+
+.declared{
+    margin: auto;
+    text-align: center;
+}
+
+#checked{
+    Width: 18px;
+    Height: 18px;
+    top: 3px;
+    left: 3px;
+    margin-right: 5px;
+    border: 7px solid rgba(119, 119, 119, 0.6);
+}
+
+/*@media screen and (min-width: 315px) and (max-width: 360px){
+    .linec, .line2c{
+        height: 30px;
+        width: 200px;
+        margin-top: 25px;
+    }
+    .register2c{
+        border-radius: 5px 0 0 5px;
+
+    }
+
+    .alreadyc{
+        margin-left: -22px;
+        border-radius: 0 6px 6px 0;
+    }
+    
+    .passwordc{
+        margin-top: 1px;
+    }
+
+    .register2c, .alreadyc{
+        Width: 140px;
+        Height: 40px;
+        font-size: 15px;
+    }
+
+    .declared{
+        margin-top: 15px;
+        padding-right: 90px;
+        padding-left: 90px;
+    }
+
+    .loadingc{
+        margin-bottom: 50px;
+    }
+    
+    #padlock{
+        margin-top: -10px;
+
+    }
+    
+    #visibility, #visibilityy, #visibility2{
+        margin-top: -10px;
+        
+    }
+}
+
+/* Recuperação de senha */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap');
+
+.insidec, .line3c, .line2c, .forgetc{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.emailc, .email2c{
+    position:absolute;
+    left: 15px;
+    right: 15px;
+    top: 10px;
+    bottom: 10px;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+    color: #4B0082;
+} 
+
+.input2c{
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.65);
+    box-sizing: border-box;
+    border: 1px solid rgba(119, 119, 119, 0.3);
+    Width: 418px;
+    Height: 49px;
+    padding-left: 50px;
+    font-size: 14px;;
+}
+
+.input2c:hover{
+    border: 1px solid #4B0082;
+}
+
+.line3c{
+    position: relative;
+    Width: 418px;
+    Height: 49px;
+}
+
+.line3c input {
+    width: 100%;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 1px solid #4B0082;
+}
+
+.line2c{
+    position: relative;
+    Width: 418px;
+    Height: 49px;
+}
+
+.line2c input {
+    width: 100%;
+}
+
+.log-in2c{
+    Width: 190px;
+    Height: 49px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.4s ease;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.log-in2c:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background: #4B0082;
+    border: 1px solid #4B0082;
+    transform: translateY(-7px);
+    color: #FFFFFF;
+
+} 
+
+.backc{
+    Width: 190px;
+    Height: 49px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.4s ease;
+    margin-right: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.backc:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background: #4B0082;
+    border: 1px solid #4B0082;
+    transform: translateY(-7px);
+    color: #FFFFFF;
+
+} 
+
+.pumc{
+    font-size: 16px;
+    color: #777777;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pdoisc{
+    font-size: 16px;
+    color: #777777;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (min-width: 385px) and (max-width: 440px){
+     .linec, .line2c{
+        height: 30px;
+        width: 360px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .registerc, .havec{
+        Width: 175px;
+        Height: 40px;
+        font-size: 15px;
+    }
+
+    .havec{
+        border-radius: 0 15px 15px 0;
+        margin-left: -1px;
+    }
+    
+    .registerc{
+      border-radius: 15px 0 0 15px;
+    }
+
+    .aa1{
+        margin-left: -60px;
+    }
+
+    .log-inc, .loading{
+        height: 50px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 385px){
+    .linec, .line2c{
+        height: 30px;
+        width: 280px;
+        margin-top: 25px;
+    }
+
+    .register2c{
+        border-radius: 5px 0 0 5px;
+
+    }
+
+    .alreadyc{
+        margin-left: -22px;
+        border-radius: 0 6px 6px 0;
+    }
+    
+    .passwordc{
+        margin-top: 1px;
+    }
+  
+     .registerc, .havec{
+        Width: 140px;
+        Height: 40px;
+        font-size: 15px;
+    }
+
+    .declared{
+        margin-top: 15px;
+        padding-right: 90px;
+        padding-left: 90px;
+    }
+
+    .loadingc{
+        margin-bottom: 50px;
+    }
+    
+    #padlock{
+        margin-top: -10px;
+
+    }
+    
+    #visibility, #visibilityy, #visibility2{
+        margin-top: -10px;
+        
+    }
+    .aa1{
+        margin-left: -150px;
+    }
+}
+
+@media screen and (min-width: 385px) and (max-width: 440px){
+  .line3c{
+    width: 320px;
+  }
+  
+    .backc{
+    width: 150px;
+    height: 30px;
+  }
+  
+  .log-in2c{
+    width: 150px;
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 385px){
+  .line3c{
+    width: 240px;
+    height: 30px;
+  }
+  
+  .backc{
+    width: 100px;
+    height: 30px;
+  }
+  
+  .log-in2c{
+    width: 100px;
+    height: 30px;
+  }
+}
