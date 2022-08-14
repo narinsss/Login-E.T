@@ -244,10 +244,9 @@ a{
     Height: 49px;
 }
 
-.namec, .cellphonec, .emailc{
+.namec, .cellphonec{
     position:absolute;
-    left: 15px;
-    right: 15px;
+    right: 10px;
     top: 10px;
     bottom: 10px;
     z-index:10;
@@ -256,6 +255,12 @@ a{
     outline:none;
     color: #4B0082;
 } 
+#env{
+    position:absolute;
+    right: 0;
+    bottom: 1px;
+    z-index:10;
+}
 
 ::placeholder{
     color: rgba(220,220,220);
